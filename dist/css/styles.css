@@ -1,29 +1,26 @@
-div {
-  height: 20px;
-  width: 40px;
+
+nav a {
+  display: block;
   float: left;
-  border: 1px solid black;
-  border-bottom: none;
-  text-align: center;
-  padding: 10px; }
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+nav a:first-child{
+  border-left: 1px solid black;
+}
 
-div:hover {
+nav a:hover{
+  background: teal;
+}
+.active {
   background: black;
-  color: white; }
+  color: white;
+}
 
-#green-tab {
-  border-left: none;
-  border-right: none;
-  padding-left: 11px;
-  padding-right: 11px; }
-
-.parent-paragraph {
-  width: 500px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+main section {
+  display: none;
   clear: left;
-  border: 1px solid black; }
-
-p > span {
-  margin-left: 20px;
-  margin-right: 20px; }
+  border: 1px solid black;
+}
